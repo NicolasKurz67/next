@@ -1,9 +1,11 @@
 .container {
   padding: 0 2rem;
+  background-image: linear-gradient(to bottom, #7c06ff, #7a00e2, #7500c6, #6e00ab, #650092);
+  position: absolute;
 }
 
 .main {
-  min-height: 90vh;
+  min-height: 91.1vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
