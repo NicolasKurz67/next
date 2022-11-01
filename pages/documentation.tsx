@@ -12,22 +12,17 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Bem vindo à <i>Nexus</i>
+          Documentação
         </h1>
 
-        <span className={styles.description}>
+        <span className={styles.description_text}>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, quidem cupiditate nihil, natus, praesentium ipsam doloremque cumque id doloribus odio vero. Laboriosam atque provident cum amet tempore accusantium in repellat.
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, quidem cupiditate nihil, natus, praesentium ipsam doloremque cumque id doloribus odio vero. Laboriosam atque provident cum amet tempore accusantium in repellat.
         </span>
 
         <div className={styles.grid}>
-          <a href="./documentation" className={styles.card}>
-            <h2>Documentação &rarr;</h2>
-            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, possimus?.</span>
-          </a>
-
-          <a href="./history" className={styles.card}>
-            <h2>Conheça mais... &rarr;</h2>
-            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, possimus?.</span>
+          <a href="./" className={styles.card}>
+            <h2>Voltar para a Página Inicial &larr;</h2>
           </a>
         </div>
       </main>
